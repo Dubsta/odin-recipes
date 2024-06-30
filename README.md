@@ -1,7 +1,6 @@
 # Odin Recipes
 A demo project for the Odin Project. The objective is to demonstrate learning of basic HTML.
 
-
 ## Specification:
 Guide and specifications for the project found at the Odin Project:
 [Project: Recipes](https://www.theodinproject.com/lessons/foundations-recipes)
