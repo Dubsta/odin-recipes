@@ -1,3 +1,35 @@
 h1 {
     color: lightblue;
 }
+
+/* Allow body to take the width */
+body {
+    max-width: none;
+}
+
+/* Get rid of something we don't want from Matcha */
+nav ul>li::before,
+nav ul>li::after {
+    display: none;
+}
+
+nav ul>li:hover {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Allow navbar to match the width of the main section */
+nav .container {
+        max-width: var(--ct-width);
+        margin: auto auto;
+}
+
+/* Matcha hides bootstrap dropdowns and messes up a few things */
+nav ul {
+    overflow: visible;
+}
+nav ul>li {
+    padding-left: unset;
+}
+nav a:hover {
+    text-decoration: none;
+}
