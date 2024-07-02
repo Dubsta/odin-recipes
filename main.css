@@ -11,10 +11,6 @@ body {
     min-height:100vh;
 }
 
-footer {
-    margin-top: auto;
-}
-
 /* Get rid of something we don't want from Matcha */
 nav ul>li::before,
 nav ul>li::after {
@@ -42,12 +38,21 @@ nav a:hover {
     text-decoration: none;
 }
 
+
+/* footer */
 body footer {
     margin-right: -1.5rem;
     margin-left: -1.5rem;
     font-size: 0.85em;
+    margin-top: auto;
 }
 
+/* about modal */
 .modal-body {
     font-size: 0.8em;
+}
+
+/* food images */
+.recipe-img {
+    border-radius: 35px;
 }
