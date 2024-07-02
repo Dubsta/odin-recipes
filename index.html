@@ -25,9 +25,9 @@
 <body>  
     
     <header>
-        <nav class="navbar navbar-nav navbar-expand-sm navbar-dark bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-nav navbar-expand-md navbar-dark bg-dark" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="javascript:;">
                     <!-- <img s rc="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> -->
                     Odin Recipes
                 </a>
@@ -35,7 +35,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Recipes
@@ -47,7 +47,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="javascript:;" data-bs-toggle="modal" data-bs-target="#modalAbout">About</a>
                         </li>
                     </ul>
                 </div>
@@ -68,12 +68,13 @@
                     <li><a href="recipes/caesar-salad.html">Classic Caesar Salad</a></li>
                     <li><a href="recipes/guacomole.html">Guacamole</a></li>
                 </ul>
+
             </section>
         </div>
     </main>
 
     <footer class="bg-dark text-center p-0">
-        <div class="d-inline-flex my-3">
+        <div class="d-inline-flex my-2">
             <p class="my-0 mx-2">Michael Atkinson</p>
             <a href="https://github.com/Dubsta/odin-recipes" class="my-0 mx-2">Github</a>
         </div>      
@@ -84,5 +85,21 @@
     <!-- main.js -->
     <script scr="main.js"></script>
 </body>
+
+  
+<!-- About Modal -->
+<div class="modal fade" id="modalAbout" tabindex="-1" aria-labelledby="modalAboutLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h3 class="modal-title m-0" id="modalAboutLabel">About</h3>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae odio animi et recusandae id. Laboriosam, ea enim. Culpa repellendus in rerum enim nulla, natus magnam, dolores sequi dolore ipsa dicta?</p>
+        </div>
+      </div>
+    </div>
+</div>
 
 </html>
