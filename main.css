@@ -2,9 +2,17 @@ h1 {
     color: lightblue;
 }
 
+
 /* Allow body to take the width */
 body {
     max-width: none;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 /* Get rid of something we don't want from Matcha */
@@ -32,4 +40,10 @@ nav ul>li {
 }
 nav a:hover {
     text-decoration: none;
+}
+
+body footer {
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+    font-size: 0.85em;
 }
