@@ -1,5 +1,10 @@
 h1 {
-    color: lightblue;
+    color: darkblue;
+}
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: lightblue
+    }
 }
 
 
@@ -55,4 +60,9 @@ body footer {
 /* food images */
 .recipe-img {
     border-radius: 35px;
+}
+
+/* allow text contrast for prefers-color-scheme-light */
+.bg-dark {
+    color: rgb(230, 237, 243);
 }
