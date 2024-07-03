@@ -3,6 +3,8 @@ A demo project for the Odin Project. The objective is to demonstrate learning of
 
 Recipe content generated externally by ChatGPT 3.5 and images by DALL-E 3.
 
+Live demo here using github pages: [Live Demo](https://dubsta.github.io/odin-recipes/)
+
 ## Specifications:
 Guide and specifications for the project found at the Odin Project:
 [Project: Recipes](https://www.theodinproject.com/lessons/foundations-recipes)
